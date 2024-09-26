@@ -6,7 +6,7 @@ const app = express();
 
 app.use(cors());
 
-mongoose.connect("mongodb+srv://janu:05nov2002@hyper-j.jnlfgci.mongodb.net/delivery?retryWrites=true&w=majority&appName=hyper-j");
+mongoose.connect(" ");
 
 mongoose.connection.on('connected',()=>{
     console.log("MongoDB connected");
